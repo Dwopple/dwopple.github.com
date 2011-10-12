@@ -1,7 +1,7 @@
 <?php
 
 require_once('MySqlDb.php');
-$Db = new MySqlDb('localhost', 'root', 'root', 'db');
+$Db = new MySqlDb('localhost:/tmp/mysql/laurel.sock', 'miranda', 'fk5oFTHB', 'laurel');
 
 $Db->where('id', 34);
 $Db->delete('posts');
