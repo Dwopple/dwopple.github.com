@@ -10,6 +10,13 @@ $personalInfo = array (
     
 echo $personalInfo['name'];
 
+$key = array_keys($personalInfo);
+
+foreach ($keys as $key) {
+    echo $key;
+}
+
+
 ?>
 
 
