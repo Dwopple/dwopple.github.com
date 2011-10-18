@@ -71,7 +71,7 @@
     
     foreach ($companyInfo['staff'] as $member) 
     {
-        echo $member['name'];
+        echo $member['name'] ." ". $member['position'] . "<br/>";
     }
     
 
