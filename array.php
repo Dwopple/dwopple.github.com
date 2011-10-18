@@ -9,9 +9,9 @@
     
     echo "<p>". $personalInfo['name'] . "</p>";
 
-   /**
-    *  Print Array
-    *
+    /**
+    * Print Array
+    * Prints the array to the screen 
     */
     echo "<h3>Print Array</h3>";
     echo "<pre>";
@@ -20,8 +20,10 @@
 
 
     /**
-     *   Extract Array Keys
-     */
+    * Extract Array Keys
+    * This function extract array keys
+    * and shows them on the screen
+    */
     $keys = array_keys($personalInfo);
 
     echo "<h3>Array Keys</h3>";
@@ -30,7 +32,8 @@
     }
     
     /**
-     *  Print Array Values
+    * Print Array Values
+    * 
     */
     echo "<h3>Print</h3>";
     foreach($personalInfo as $info) {
@@ -38,13 +41,37 @@
     }
     
     /**
-     *   Extract Array Values
-     */
+    * Extract Array Values
+    */
     $values = array_values($personalInfo);
 
     echo "<h3>Array Values</h3>";
     foreach ($values as $value) {
         echo "$value </br/>";
+    }
+    
+    /**
+    * Multidimensional Arrays
+    */
+    $companyInfo = array 
+    (
+        'info'  => array 
+        (
+            'name'      => 'Dwopple ltd',
+            'location'  => 'San Francisco',
+            'website'   => 'http://www.dwopple.com',
+        ),
+        'staff' => array 
+        (
+            array('name' => 'John Doe', 'position' => 'CEO'),
+            array('name' => 'Hiro Nakamura','position' => 'Art Director'),
+            array('name'=>'Willy Wonka','position' => 'Web Developer') 
+        )
+    );
+    
+    foreach ($companyInfo['staff'] as $member) 
+    {
+        echo $member['name'];
     }
     
 
