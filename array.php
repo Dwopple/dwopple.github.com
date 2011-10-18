@@ -36,6 +36,17 @@
     foreach($personalInfo as $info) {
         echo "$info </br>";
     }
+    
+    **
+     *   Extract Array Values
+     */
+    $values = array_values($personalInfo);
+
+    echo "<h3>Array Values</h3>";
+    foreach ($kvalue as $value) {
+        echo "$value </br/>";
+    }
+    
 
 
 ?>
