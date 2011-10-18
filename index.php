@@ -9,6 +9,7 @@ $Db = new database('/tmp/mysql/laurel.sock', 'miranda', 'fk5oFTHB', 'laurel');
 
 
 
+
 ?>
 <!DOCTYPE html>
 
@@ -19,7 +20,7 @@ $Db = new database('/tmp/mysql/laurel.sock', 'miranda', 'fk5oFTHB', 'laurel');
 </head>
 <body>
 <pre>
-<?php print_r($results); ?>
+
 </pre>
 </body>
-</html>
+</html
