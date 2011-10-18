@@ -13,17 +13,28 @@
     *  Print Array
     *
     */
+    echo "<h3>Print Array</h3>";
+    echo "<pre>";
     print_r($personalInfo);
+    echo "</pre>";
 
 
-    /*
+    /**
      *   Extract Array Keys
-    */
+     */
     $keys = array_keys($personalInfo);
 
     echo "<h3>Array Keys</h3>";
     foreach ($keys as $key) {
         echo "$key </br/>";
+    }
+    
+    /*
+     *
+    */
+    echo "<h3>Print</h3>";
+    foreach($personalInfo as $info) {
+        echo "$info </br>";
     }
 
 
