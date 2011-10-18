@@ -8,12 +8,14 @@ $personalInfo = array (
     
     );
     
-echo $personalInfo['name'];
+echo "<p>$personalInfo['name']</p^>";
+
+
 
 $keys = array_keys($personalInfo);
 
 foreach ($keys as $key) {
-    echo $key;
+    echo "$key </br/>";
 }
 
 
