@@ -43,7 +43,7 @@
     $values = array_values($personalInfo);
 
     echo "<h3>Array Values</h3>";
-    foreach ($value as $value) {
+    foreach ($values as $value) {
         echo "$value </br/>";
     }
     
