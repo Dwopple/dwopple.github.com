@@ -1,6 +1,6 @@
 <?php
 
-require_once('MySqlDb.php');
+require_once('database.php');
 $Db = new MySqlDb('/tmp/mysql/laurel.sock', 'miranda', 'fk5oFTHB', 'laurel');
 
 
