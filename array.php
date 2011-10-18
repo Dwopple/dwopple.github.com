@@ -75,12 +75,9 @@
         echo $member['name'] ." ". $member['position'] . "<br/>";
     }
     
-    foreach ($companyInfo as $info) 
+    foreach ($companyInfo as $infor) 
     {
-        foreach ($info as $value)
-        {
-            echo $value;
-        }
+        echo $infor;
     }
     
 
