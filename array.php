@@ -29,15 +29,15 @@
         echo "$key </br/>";
     }
     
-    /*
-     *
+    /**
+     *  Print Array Values
     */
     echo "<h3>Print</h3>";
     foreach($personalInfo as $info) {
         echo "$info </br>";
     }
     
-    **
+    /**
      *   Extract Array Values
      */
     $values = array_values($personalInfo);
