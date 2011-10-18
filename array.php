@@ -53,6 +53,7 @@
     /**
     * Multidimensional Arrays
     */
+    echo "<h3>Multidimensional Arrays</h3>";
     $companyInfo = array 
     (
         'info'  => array 
@@ -72,6 +73,14 @@
     foreach ($companyInfo['staff'] as $member) 
     {
         echo $member['name'] ." ". $member['position'] . "<br/>";
+    }
+    
+    foreach ($companyInfo as $info) 
+    {
+        foreach ($info as $value)
+        {
+            echo $value;
+        }
     }
     
 
