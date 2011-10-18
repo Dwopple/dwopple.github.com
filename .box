@@ -14,4 +14,4 @@
 ## PHP SPECIFIC SETTINGS
 ################################################
 
-php_extensions: [mysql]
+php_extensions: [mysqli]
