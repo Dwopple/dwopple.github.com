@@ -8,7 +8,7 @@ $personalInfo = array (
     
     );
     
-echo "<p>$personalInfo['name']</p>";
+echo "<p>". $personalInfo['name'] ."</p>";
 
 
 
