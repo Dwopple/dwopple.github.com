@@ -1,6 +1,6 @@
 <?php
 
-class MysqlDB {
+class database {
 
    protected $_mysql;
 
