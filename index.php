@@ -1,7 +1,7 @@
 <?php
 
 require_once('database.php');
-$Db = new database("/tmp/mysql/kathline.sock", "teena", "2dDqofWE", "kathline");
+$Db = new database("localhost:/tmp/mysql/kathline.sock", "teena", "2dDqofWE", "kathline");
 
 
 
