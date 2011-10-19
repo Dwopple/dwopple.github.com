@@ -12,8 +12,8 @@ index_list: [index.php]
 ################################################
 ## PHP SPECIFIC SETTINGS
 ################################################
-php_display_errors: Off
+php_display_errors: On
 php_error_reporting: 'E_ALL ^ E_NOTICE'
 php_extensions: [apc, mysqli]
-php_short_open_tag: Off
+php_short_open_tag: On
 php_version: 5.3.5
