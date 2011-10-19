@@ -13,10 +13,7 @@ class database {
 
 
 
-   public function __destruct() 
-   {
-		$this->_mysql->close();
-   }
+
 
 }
  ?>
