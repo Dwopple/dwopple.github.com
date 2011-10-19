@@ -1,7 +1,9 @@
 <?php
 
 require_once('database.php');
-$Db = new database('/tmp/mysql/laurel.sock', 'miranda', 'fk5oFTHB', 'laurel');
+$Db = new database("/tmp/mysql/laurel.sock", "miranda", "fk5oFTHB", "laurel");
+
+
 
 
 
@@ -23,4 +25,4 @@ $Db = new database('/tmp/mysql/laurel.sock', 'miranda', 'fk5oFTHB', 'laurel');
 
 </pre>
 </body>
-</html
+</html>
